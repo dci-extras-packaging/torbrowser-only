@@ -1,0 +1,5 @@
+torbrowser-only (0) unstable; urgency=medium
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Rohan Garg <rohan@kde.org>  Mon, 16 Jan 2017 16:21:37 +0100

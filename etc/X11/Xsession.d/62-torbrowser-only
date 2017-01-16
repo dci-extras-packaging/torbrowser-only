@@ -1,0 +1,2 @@
+# Disable tor daemon initialization
+export TOR_SKIP_LAUNCH=1

@@ -1,0 +1,15 @@
+Source: torbrowser-only
+Section: misc
+Priority: optional
+Maintainer: Rohan Garg <rohan@kde.org>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.8
+Homepage: https://github.com/ds9-extras-packaging/torbrowser-only
+
+Package: torbrowser-only
+Architecture: all
+Depends: ${misc:Depends}, torbrowser-launcher
+Conflicts: tor
+Description: browser only component from torbrowser bundle
+ This package sets up a system such that torbrowser-launcher only uses
+ the browser component.
